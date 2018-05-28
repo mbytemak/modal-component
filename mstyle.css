@@ -1,0 +1,43 @@
+body{
+  
+  margin:10% auto;
+  width:80%;
+  position:center;
+  
+ }
+#idbutton{
+  display:block;
+  background-color:orange;
+  padding:20px;
+ 
+  
+}
+
+.modal{
+  display:none;
+  position:fixed;
+  z-index:1;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  overflow:auto;
+  background-color:rgba(0,0,0,0.5);
+  }
+.modal-content{
+  
+  background-color:#f4f4f4;
+  margin:10% auto;
+  padding:20px;
+  width:70%;
+  }
+
+.close-btn{
+color:#ccc;
+  float:right;
+  font-size:30px;
+}
+
+  
+
+}
